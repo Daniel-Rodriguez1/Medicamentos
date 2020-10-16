@@ -1,0 +1,15 @@
+.hiiden {
+    display: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.error {
+    border: solid 1px red!important;
+}
+
+#btn-regitrar {
+    margin: 10px 0;
+}

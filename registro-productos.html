@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-info">
+    <header>
+        <nav class=" navbar text-success ">
+            <a class="gray-lighter navbar-text " href="farmacias.html">Casas farmacéuticas</a>
+            <a class="text-light navbar-text" href="medicamentos.html">Medicamentos</a>
+            <a class="gray-lighter navbar-text " href="registrar-farmacia.html">Registrar farmacias</a>
+            <a class="gray-lighter navbar-text " href="registro-productos.html">Registrar productos</a>
+        </nav>
+    </header>
+    <main class="container">
+        <h1 class="h1 col-md-12 center">Registro de medicamentos</h1>
+        <form action="" class="form-group">
+
+            <div class="form-group col-md-6">
+                <label for="txt-codigo">Código:</label><input type="text" class="form-control" id="txt-codigo">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="txt-nombre">Nombre:</label><input type="text" class="form-control" id="txt-nombre">
+            </div>
+            <fieldset class="col-md-12" id="intra">
+                <legend>El producto es intravenoso?</legend>
+                <div>
+                    <label for="">Si</label>
+                    <input type="radio" id="rbt-fisica" name="rbt-tipo" value="si" checked>
+                </div>
+                <div>
+                    <label for="">No</label>
+                    <input type="radio" id="rbt-virtual" name="rbt-tipo" value="no">
+                </div>
+            </fieldset>
+            <div class="col-md-6">
+                <label for=" txt-costo ">Costo:</label>
+                <input type="number " id="txt-costo" class="form-control ">
+            </div>
+            <div class="col-md-6">
+                <label for="select">Farmacia:</label>
+                <select class="col-md-6 form-control " id="select">
+                    <option value=" "></option>
+                </select>
+            </div>
+            <div class="col-md-12 ">
+                <button type="button " class="btn btn-success " id="btn-regitrar">Registrar tienda</button>
+            </div>
+        </form>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/general.js"></script>
+    <script src="js/clases.js"></script>
+    <script src="js/registrar-producto.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+</body>
+
+</html>

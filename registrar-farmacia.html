@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-info">
+    <header>
+        <nav class=" navbar text-success ">
+            <a class="gray-lighter navbar-text " href="farmacias.html">Casas farmacéuticas</a>
+            <a class="text-light navbar-text" href="medicamentos.html">Medicamentos</a>
+            <a class="gray-lighter navbar-text " href="registrar-farmacia.html">Registrar farmacias</a>
+            <a class="gray-lighter navbar-text " href="registro-productos.html">Registrar productos</a>
+        </nav>
+    </header>
+    <main class="container">
+        <form action="" class="form-group">
+            <h1 class="h1 col-md-12 center">Registro de farmacias</h1>
+            <div class="form-group col-md-6">
+                <label for="txt-codigo">Código:</label><input type="text" class="form-control" id="txt-codigo">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="txt-nombre">Nombre de la farmacia:</label><input type="text" class="form-control" id="txt-nombre">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="txt-pais">País:</label><input type="text" class="form-control" id="txt-pais">
+            </div>
+
+
+            <div class="col-md-12 ">
+                <button type="button" class="btn btn-success" id="btn-regitrar">Registrar tienda</button>
+            </div>
+        </form>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/general.js"></script>
+    <script src="js/clases.js"></script>
+    <script src="js/registrar-farmacias.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+
+</body>
+
+</html>
